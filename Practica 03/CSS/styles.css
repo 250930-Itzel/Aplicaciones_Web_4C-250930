@@ -1,0 +1,272 @@
+/* Configuración General De La Página Web*/
+
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0f172a ;
+    color: #ccc;
+    line-height: 1.6;
+    /*border-color: red;
+    border-style: solid;
+    border-width: 15px;
+    padding: 50px;*/
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 14px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(15, 23, 42, 0.45);
+    backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(255, 255, 255,0.12);
+    z-index: 1000;
+    transition: 0.3s;
+}
+nav h2{
+    color: white;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+nav a:hover{
+    color: #67e8f9
+}
+
+/* ================
+ PARALLAX GENERAL
+ ================ */
+.parallax{
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 20px;
+    position: relative;
+
+}
+/* CAPA OSCURA*/
+
+.parallax::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.38);
+}
+/*CONTENIDO SOBRE EL FONDO*/
+.PARALLAX > * {
+    position: relative;
+    z-index: 2;
+}
+
+/* ================ 
+== BACKGROUND HD ==
+ ================*/
+.parallax-1{
+    background-image: 
+    url("../assets/imagenes/bill.jpg");
+}
+.parallax-2{
+    background-image: 
+    url("../assets/imagenes/jinx.jpg");
+}
+.parallax-3{
+    background-image: 
+    url("../assets/imagenes/stitch.jpg");
+}
+.parallax-4{
+    background-image: 
+    url("../assets/imagenes/kuromi.jpg");
+}
+    
+    object-fit: cover;
+    
+    object-position:  50% 13%; 
+
+    border-radius: 50% ;
+
+    display: block;
+
+    box-shadow: 0 10px 30px rgba(59, 248, 255, 0.6);
+}
+/* ================ 
+ == GLASS EFFECT ==
+ ================*/
+
+.glass{
+    background: 
+    rgba(20, 30, 50, 0.38);
+    color: white;
+    backdrop-filter:
+    blur(14px);
+    border:
+    1px solid
+    rgba(255, 255, 255, 0.25);
+    border-radius:
+    24px;
+    box-shadow: 
+    0 25px 50px
+    rgba(0, 0, 0, 0.25);
+
+}
+/* ================ 
+ ====== HERO ======
+ ================*/
+
+ .hero-card{
+    max-width: 900px;
+    padding: 45px;
+    display: flex;
+    flex-direction: row;      
+    align-items: center;      
+    justify-content: center;  
+    gap: 40px;              
+    text-align: center;
+ }
+ 
+ /* Organiza de forma vertical el título, subtítulo, frase y botón */
+.hero-card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;      /* Centra los textos horizontalmente en su propia columna */
+    gap: 15px;                /* Separación uniforme entre los textos */
+    text-align: center;
+}
+
+ .hero-card h1 {
+    font-size: 3rem;
+    margin: 0;                /* Resetea márgenes para evitar desfases */
+    color: white;
+    font-weight: bold;
+}
+
+.hero-card p {
+    font-size: 1.2rem;
+    margin: 0;                /* Resetea márgenes para evitar desfases */
+    color: #cbd5e1;           /* Color de texto claro y legible */
+}
+
+blockquote{
+    margin: 25px auto;
+    max-width: 500px;
+    font-size: 1.3rem;
+    font-style: italic;
+}
+/* ================ 
+ ===== BUTTON =====
+ ================*/
+ .boton{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 
+    14px 30px;
+    background: 
+    rgba(255, 255, 255, 0.9);
+    color: #111827;
+    border-radius: 
+    30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+ }
+ .boton:hover {
+    transform:
+    translateY(-4px);
+    box-shadow:
+    0 12px 25px
+    rgba(0, 0, 0, 0.25);
+    background-color: rgb(34, 238, 228);
+    color: rgb(0, 0, 0);
+ }
+ /* ================ 
+ == SECCIONES ==
+ ================*/
+ .seccion{
+    min-height: 40vh;
+    padding: 40px 8%;
+ }
+ .seccion h2{
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 45px;
+ }
+ /* ================ 
+ == COLORES SÓLIDOS ALTERNADOS ==
+ ================*/
+ .solido-1 {
+    background: #f8fafc;
+ }
+ .solido-2 {
+    background: #111827;
+    color: white;
+ }
+ .solido-3 {
+    background: #e0f2fe;
+ }
+ .solido-4 {
+    background: #1e293b;
+    color: white;
+ }
+ .redes{
+    background: #f1f5f9;
+}
+ 
+ /* ================ 
+ == CONTENEDORES ==
+ ================*/
+ .contenedor{
+    min-width: 1100px;
+    margin: auto;
+ }
+ .card{
+    background: rgba(255, 255, 255, 0.88);
+    color: #222;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+    transition: 0.3s;
+ }
+ .card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.10);
+ }
+ /* ================ 
+ == DATOS PERSONALES ==
+ ================*/
+
+ .datos{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
+ }
+ .datos article{
+    margin-top: 30px;
+    text-align: center;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    
+ }
