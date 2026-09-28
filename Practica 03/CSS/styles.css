@@ -99,7 +99,7 @@ nav a:hover{
     background-image: 
     url("../assets/imagenes/kuromi.jpg");
 }
-    
+    .perfil {
     object-fit: cover;
     
     object-position:  50% 13%; 
