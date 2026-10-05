@@ -4,249 +4,346 @@
 <head>
     <meta charset="UTF-8">
 
-    <meta name ="viewport"
-            content="width=device-width, initial-scale=1.0">
-    
-    <meta name ="description"
-            content="Mi perfil de estudiante"> 
-    
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Mi primera página web personal">
+
     <meta name ="author"
-                content="Itzel Joseline Sánchez Hernández  @ T.S.U. en Desarrollo en Software Multiplataforma">
+                content="Itzel Joseline Sánchez Hernández  @ T.S.U. en Desarrollo en Software Multiplataforma>
+
     <title>Mi Primera Página Web</title>
 
-    <link id="mi-favicon" 
-            rel="icon"
-            href="assets/imagenes/perfil.png" 
-         type="image/png">
+    <link rel="icon"
+          type="image/png"
+          href="/Practica 03/assets/imagenes/perfil.png">
 
     <link rel="stylesheet"
-         href="css/styles.css">
-
+          href="css/styles.css">
 </head>
 
 <body>
-    <!-- ================= -->
-    <!--    NAVEGACIÓN     -->
-    <!-- ================= -->
-     <nav id="menu"> <!-- Etiqueta de sematica con el atributo id -->
+
+    <!-- ============================= -->
+    <!-- NAVEGACIÓN -->
+    <!-- ============================= -->
+
+    <nav id="navbar">
 
         <h2>🚀 Mi Mundo</h2>
 
-    
-        <ul> <!-- Unordered List, Lista desordenada -->
-
-            <li class="menu_option"><a href="#inicio">Inicio</a></li>
-            <li class="menu_option"><a href="#acerca-de-mi">Acerca de mí</a></li>
-            <li class="menu_option"><a href="#aspiraciones">Aspiraciones</a></li>
-            <li class="menu_option"><a href="#hobbies">Hobbies</a></li>
-            <li class="menu_option"><a href="#favoritos">Favoritos</a></li>
-            <li class="menu_option"><a href="#redes-sociales">Redes Sociales</a></li>
-
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#aspiraciones">Aspiraciones</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#favoritos">Favoritos</a></li>
+            <li><a href="#redes">Redes</a></li>
         </ul>
-        
+
     </nav>
-    <!-- ================= -->
-    <!-- HERO / PARALLAX 1  -->
-    <!-- ================= -->
+
+
+    <!-- ============================= -->
+    <!-- HERO / PARALLAX 1 -->
+    <!-- ============================= -->
+
     <header id="inicio"
-        class="parallax parallax-1">
+            class="parallax parallax-1">
 
-    <div class="glass hero-card">
+        <div class="glass hero-card">
 
-        <img src="assets/imagenes/Itzel Joseline.jpg"
-            alt="Fotografia de perfil"
-            class="perfil">
-            
-            <!-- LADO DERECHO: Contenedor con la información ordenada -->
-            <div class="hero-card-info">
+            <img src="/Practica 03/assets/imagenes/Itzel Joseline.jpg"
+                 alt="Fotografía de perfil"
+                 class="perfil">
 
-        <h1>Hola👋, Soy Itzel Joseline</h1>
+            <h1>Hola, soy Itzel Joseline Sanchez Hernandez 👋</h1>
 
-        <p>
-            Estudiante de Tecnologías de la Información | Apasionado por la tecnología | Soñador
-        </p>
+            <p>
+                Estudiante de Tecnologías de la Información | Apasionado por la tecnología | Soñadora
+            </p>
 
-        <blockquote>
-        "La disciplina de hoy construye el éxito del mañana"
-        </blockquote>
+            <blockquote>
+                "La disciplina de hoy construye el éxito del mañana."
+            </blockquote>
 
-        <a href="#acerca-de-mi"
-        class="boton">
+            <a href="#sobre-mi"
+               class="boton">
 
-        Conoceme ↓
+                Conóceme ↓
 
-        </a>
+            </a>
 
-    </div>
+        </div>
 
-        </header>
-
-            <!-- ================= -->
-            <!-- Acerca de Mí -->
-            <!-- Color Sólido -->
-            <!-- ================= -->
-
-            <section id="acerca-de-mi"
-                    class="seccion solido-1"> <!-- Etiqueta de sematica con el atributo id y class -->
-
-                <h2>👤 Acerca de mí</h2>
-
-                <div class="contenedor"> <!-- Etiqueta de estructura que agrupa elementos -->
-
-                    <div class="card">
-                        <p>
-                            Soy estudiante de Tecnologías de la Información
-                            y me interesa aprender sobre el desarrollo web,
-                            programación, diseño y nuevas tecnologías
-                        </p>
-
-                        <p>
-                            Me gusta resolver problemas, crear cosas nuevas
-                            y desarrollar proyectos que puedan ser útiles.
-                        </p>
-                    </div>
-
-                    <div class="datos">
-                        <article>
-                            <h3>🎂 Edad </h3>
-                            <p> 19 años </p>
-                        </article>
-
-                        <article>
-                            <h3> 📍 Ciudad </h3>
-                            <p> La Palpa, Huauchinango Puebla</p>
-                        </article>
-
-                        <article>
-                            <h3>🎓 Ocupación</h3>
-                            <p>Estudiante</p>
-                        </article>
-
-                        <article>
-                            <h3>☕ Extra</h3>
-                            <p> Amo el café</p>
-                        </article>
-                    </div>
-
-                </div>
-            </section>
-
-            <!-- ================= -->
-            <!-- ASPIRACIONES -->
-            <!-- ================= -->
-            
-            <section id="aspiraciones">
-                <h2>🎯 Mis aspiraciones</h2>
-                <div>
-                    
-                    <article>
-                        <h3>🎓 Terminar mi carrera </h3>
-                        <p>
-                            Concluir mis estudios y fortalecer
-                            mis habilidades profesionales.
-                        </p>
-                    </article>
-
-                    <article>
-                        <h3>💻 Ser desarrolador</h3>
-                        <p>
-                            Trabajar en proyectos de software
-                            y crear aplicaiones útiles
-                        </p>
-                    </article>
-
-                    <article>
-                        <h3>🌍 Viajar</h3>
-                        <p>
-                            Conocer otras ciudades, culturas
-                            y nuevas experiencias.
-                        </p>
-                    </article>
-                </div>
-            </section>
-
-            <!-- ================= -->
-            <!-- HOBBIES -->
-            <!-- ================= -->
-
-            <section id="hobbies">
-
-                <h2> 🧩 Hobbies</h2>
-
-                <div>
-
-                    <article>
-                        <h3> 💻 Programar</h3>
-                        <p>Crear soluciones</p>
-                    </article>
-
-                    <section>
-                        <h3> 🎮 Videojuegos</h3>
-                        <p> Explorar mundos digitales</p>
-                    </section>
-
-                    <section>
-                        <h3>🎧 Música</h3>
-                        <p>Escuchar mis canciones favoritas</p>
-                    </section>
-
-                    <section>
-                        <h3>📷 Fotografía</h3>
-                        <p> Capturar momentos</p>
-                    </section>
-
-                    <section>
-                        <h3>✈️ Viajar</h3>
-                        <p> Conocer nuevos lugares</p>
-                    </section>
-
-                </div>
-            </section>
-            
-            <!-- ================= -->
-            <!-- FAVORITOS -->
-            <!-- ================= -->
-
-            <section id="favoritos">
-                
-                <h2>⭐ Mis favoritos</h2>
-
-                <div>
-                    
-                    <section>
-                        <h3>🎬 Pelicula favorita</h3>
-                        <p> El Hombre Araña 3</p>
-                    </section>
-
-                    <section>
-                        <h3>🎵 Canción favorita</h3>
-                        <p> Los Telez - Yo Soy Tu Maestro</p>
-                    </section>
-
-                    <section>
-                        <h3>📚 Libro Favorito</h3>
-                        <p>Cien años de soledad</p>
-                    </section>
+    </header>
 
 
-                </div>
+    <!-- ============================= -->
+    <!-- SOBRE MI -->
+    <!-- COLOR SÓLIDO -->
+    <!-- ============================= -->
 
-            </section>
+    <section id="sobre-mi"
+             class="seccion solido-1">
+
+        <h2>👤 Sobre mí</h2>
+
+        <div class="contenedor">
+
+            <div class="card">
+
+                <p>
+                    Soy estudiante de Tecnologías de la Información
+                    y me interesa aprender sobre desarrollo web,
+                    programación, diseño y nuevas tecnologías.
+                </p>
+
+                <p>
+                    Me gusta resolver problemas, crear cosas nuevas
+                    y desarrollar proyectos que puedan ser útiles.
+                </p>
+
+            </div>
+
+            <div class="datos">
+
+                <article>
+                    <h3>🎂 Edad</h3>
+                    <p>19 años</p>
+                </article>
+
+                <article>
+                    <h3>📍 Ciudad</h3>
+                    <p>Palpa, Huauchinango Puebla</p>
+                </article>
+
+                <article>
+                    <h3>🎓 Ocupación</h3>
+                    <p>Estudiante</p>
+                </article>
+
+                <article>
+                    <h3>☕ Extra</h3>
+                    <p>Me gusta el café</p>
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- PARALLAX 2 -->
+    <!-- ============================= -->
+
+    <section class="parallax parallax-2">
+
+        <div class="glass frase">
+
+            <h2>🌱 Mis aspiraciones</h2>
+
+            <p>
+                Quiero crecer profesionalmente,
+                aprender nuevas tecnologías
+                y participar en proyectos interesantes.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- ASPIRACIONES -->
+    <!-- COLOR SÓLIDO -->
+    <!-- ============================= -->
+
+    <section id="aspiraciones"
+             class="seccion solido-2">
+
+        <h2>🎯 Mis aspiraciones</h2>
+
+        <div class="grid">
+
+            <article class="card">
+                <h3>🎓 Terminar mi carrera</h3>
+                <p>
+                    Concluir mis estudios y fortalecer
+                    mis habilidades profesionales.
+                </p>
+            </article>
+
+            <article class="card">
+                <h3>💻 Ser desarrollador</h3>
+                <p>
+                    Trabajar en proyectos de software
+                    y crear aplicaciones útiles.
+                </p>
+            </article>
+
+            <article class="card">
+                <h3>🌎 Viajar</h3>
+                <p>
+                    Conocer otras ciudades, culturas
+                    y nuevas experiencias.
+                </p>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- PARALLAX 3 -->
+    <!-- ============================= -->
+
+    <section class="parallax parallax-3">
+
+        <div class="glass frase">
+
+            <h2>🎮 Mis hobbies</h2>
+
+            <p>
+                Programar, escuchar música, jugar,
+                aprender y conocer nuevos lugares.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- HOBBIES -->
+    <!-- COLOR SÓLIDO -->
+    <!-- ============================= -->
+
+    <section id="hobbies"
+             class="seccion solido-3">
+
+        <h2>🧩 Lo que disfruto hacer</h2>
+
+        <div class="grid cinco">
+
+            <article class="card">
+                <h3>💻 Programar</h3>
+                <p>Crear soluciones.</p>
+            </article>
+
+            <article class="card">
+                <h3>🎮 Videojuegos</h3>
+                <p>Explorar mundos digitales.</p>
+            </article>
+
+            <article class="card">
+                <h3>🎧 Música</h3>
+                <p>Escuchar mis canciones favoritas.</p>
+            </article>
+
+            <article class="card">
+                <h3>📷 Fotografía</h3>
+                <p>Capturar momentos.</p>
+            </article>
+
+            <article class="card">
+                <h3>✈️ Viajar</h3>
+                <p>Conocer nuevos lugares.</p>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- PARALLAX 4 -->
+    <!-- ============================= -->
+
+    <section class="parallax parallax-4">
+
+        <div class="glass frase">
+
+            <h2>⭐ Mis favoritos</h2>
+
+            <p>
+                Algunas cosas que forman parte
+                de mis gustos personales.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- FAVORITOS -->
+    <!-- COLOR SÓLIDO -->
+    <!-- ============================= -->
+
+    <section id="favoritos"
+             class="seccion solido-4">
+
+        <h2>⭐ Mis favoritos</h2>
+
+        <div class="grid">
+
+            <article class="card">
+                <h3>🎬 Película favorita</h3>
+
+                <img src="img/pelicula.jpg"
+                     alt="Película favorita">
+
+                <p>
+                    Interestelar
+                </p>
+            </article>
+
+            <article class="card">
+
+                <h3>🎵 Canción favorita</h3>
+
+                <p>
+                    Nombre de la canción
+                </p>
+
+                <audio controls>
+                    <source src="media/cancion.mp3"
+                            type="audio/mpeg">
+                </audio>
+
+            </article>
+
+            <article class="card">
+                <h3>📚 Libro favorito</h3>
+                <p>
+                    Sapiens
+                </p>
+            </article>
+
+        </div>
+
+    </section>
+
 
     <!-- ============================= -->
     <!-- REDES SOCIALES -->
     <!-- ============================= -->
 
-    <section id="redes-sociales"
-             >
+    <section id="redes"
+             class="seccion redes">
 
-        <h2>🛜🌐Mis redes sociales</h2>
+        <h2>🌐 Mis redes sociales</h2>
 
         <p>
             Puedes encontrarme en:
         </p>
 
-        <div >
+        <div class="redes-sociales">
 
             <a href="https://github.com/"
                target="_blank"
@@ -415,20 +512,27 @@
         </div>
 
     </section>
+
+
     <!-- ============================= -->
     <!-- FOOTER -->
     <!-- ============================= -->
 
     <footer>
-    <p>
-        Mi Primera Página Web
-    </p>
 
-    <p id="anio"></p>
+        <p>
+            Mi Primera Página Web
+        </p>
 
-    <a href="#inicio"> <!-- Anchor / ANcla redireccionamiento en tu misma página -->
-        ↑ Volver al Inicio
-    </a>
+        <p id="anio"></p>
+
+        <a href="#inicio">
+            ↑ Volver al inicio
+        </a>
+
     </footer>
+
+
+    <script src="js/app.js"></script>
+
 </body>
-</html>
