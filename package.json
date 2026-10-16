@@ -1,0 +1,26 @@
+{
+  "name": "aplicaciones_web_4c-250930",
+  "version": "1.0.0",
+  "description": "Nombre del estudiante: Itzel Joseline Sanchez Hernandez",
+  "main": "index.js",
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "deploy": "gh-pages -d ."
+}
+,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/250930-Itzel/Aplicaciones_Web_4C-250930.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/250930-Itzel/Aplicaciones_Web_4C-250930/issues"
+  },
+  "homepage": "https://github.com/250930-Itzel/Aplicaciones_Web_4C-250930#readme",
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
